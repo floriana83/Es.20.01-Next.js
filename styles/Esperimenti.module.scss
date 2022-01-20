@@ -1,0 +1,21 @@
+.panel {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 93.8vh;
+    background: white;
+    z-index: 1;
+    background-color: lightgrey;
+
+    .wrapperTwo{
+        display:flex;
+        justify-content:space-between;
+    }
+    .h1, .speed, .opacity, .color, .size, .number, .number, .shapes, .bg {
+        margin:10px;
+    }
+    .speed_bt, .icon, .opacity_bt, .color_bt, .size_bt, .number_bt, .number_bt, .shapes_bt, .bg_bt {
+        margin-right:15px;
+    }
+
+  }
